@@ -1,0 +1,37 @@
+#header {
+  height: 50px;
+  background: #04a287;
+  color: #fff;
+}
+
+#branding h1 {
+  color: #fff;
+}
+
+a:link,
+a:visited {
+  color: #04a287;
+}
+
+/* This is the secondary header that only shows up when
+you're looking within a specific app */
+div.breadcrumbs {
+  background: #04a287;
+}
+
+.module caption,
+.inline-group h2 {
+  background: #04a287;
+}
+
+.button,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+  background: #04a287;
+}
+
+.submit-row input.default {
+  background: #04a287;
+}
