@@ -8,7 +8,7 @@ def index(request):
     context = {
         'listings': listings
     }
-    return render(request, 'listings/listings.html')
+    return render(request, 'listings/listings.html', context)
 
 def listing(request):
     return render(request, 'listings/listing.html')
